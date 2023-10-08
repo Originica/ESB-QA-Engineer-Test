@@ -1,0 +1,14 @@
+{
+  "name": "qa-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Olivia Monica",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --network-timeout 600000"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.13.0"
+  }
+}
